@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">menuEtImage</string>
+    <string name="b_display">Choisir l\'image</string>
+    <string name="b_displayMenu">Affichage du menu (appui long)</string>
+    <string name="b_hMirror">Mirroir Horizontal</string>
+    <string name="b_vMirror">Mirroir Vertical</string>
+    <string name="b_invert">Inversion des couleurs</string>
+    <string name="b_8bit">Transformation en niveaux de gris</string>
+
+</resources>

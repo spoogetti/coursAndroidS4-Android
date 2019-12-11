@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/c_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_sms"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/b_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_sms"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/c_mms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_MMS"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/b_mms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_MMS"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/c_appel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_appel"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/b_appel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_appel"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/c_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_web"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_web"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/c_map_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_map_latitude"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/c_map_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_map_longitude"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/b_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_map"
+        android:onClick="onClick" />
+</LinearLayout>

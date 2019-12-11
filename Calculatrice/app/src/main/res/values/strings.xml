@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="b_plus">+</string>
+    <string name="b_moins">-</string>
+    <string name="b_fois">*</string>
+    <string name="b_diviser">/</string>
+    <string name="b_egal">=</string>
+    <string name="divZero">Division par zéro impossible :)</string>
+
+</resources>

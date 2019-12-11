@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="b_request">Request</string>
+    <string name="s_city">Saisissez une ville</string>
+    <string name="t_temp">Température</string>
+    <string name="t_weatherDesc">Météo</string>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">intentionsImplicites</string>
+    <string name="b_sms">SMS</string>
+    <string name="b_MMS">MMS</string>
+    <string name="b_appel">Appel</string>
+    <string name="b_web">Web</string>
+    <string name="b_map">Map</string>
+
+    <string name="c_sms">Numéro de téléphone - SMS</string>
+    <string name="c_MMS">Numéro de téléphone - MMS</string>
+    <string name="c_appel">Numéro de téléphone - Appel</string>
+    <string name="c_web">Chaîne de caractères - Adresse Web</string>
+    <string name="c_map_longitude">Chaîne de caractères - Longitude</string>
+    <string name="c_map_latitude">Chaîne de caractères - Latitude</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/c_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_nom"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/c_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_prenom"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/c_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_telephone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/b_modifierUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/b_modifier" />
+
+    <TextView
+        android:id="@+id/c_addressNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_numAdresse"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/c_streetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_nomRue"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/c_postalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_codePostal"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/c_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_ville"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:id="@+id/b_modifierAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/b_modifier" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".editAddress">
+
+    <EditText
+        android:id="@+id/c_streetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/c_nomRue"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/c_numAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="@string/c_numAdresse"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/c_postalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_codePostal"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/c_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/c_ville"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b_valid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_valider" />
+
+    <Button
+        android:id="@+id/b_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_annuler" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">intentionsExplicites2</string>
+    <string name="c_nom">Nom</string>
+    <string name="c_prenom">Prénom</string>
+    <string name="c_telephone">Numéro de téléphone</string>
+    <string name="c_numAdresse">Numéro d\'adresse</string>
+    <string name="c_nomRue">Nom de rue</string>
+    <string name="c_codePostal">Code postal</string>
+    <string name="c_ville">Ville</string>
+    <string name="b_modifier">Modifier</string>
+    <string name="b_annuler">Annuler</string>
+    <string name="b_valider">Valider</string>
+
+</resources>

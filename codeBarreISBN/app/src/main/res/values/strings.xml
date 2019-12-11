@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">codeBarreISBN</string>
+    <string name="b_scan">Scan</string>
+    <string name="b_livre">Livres</string>
+    <string name="t_titre">Titre</string>
+    <string name="t_auteur">Auteur</string>
+    <string name="t_annee">Année</string>
+    <string name="t_langue">Langue</string>
+    <string name="t_collection">Collection</string>
+    <string name="t_editeur">Editeur</string>
+    <string name="t_asin">Asin</string>
+</resources>

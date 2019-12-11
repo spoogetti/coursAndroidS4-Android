@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_choosePic" android:title="@string/b_display" />
+    <item android:id="@+id/m_vMirror"  android:title="@string/b_vMirror" />
+    <item android:id="@+id/m_hMirror"  android:title="@string/b_hMirror" />
+    <item android:id="@+id/m_invert" android:title="@string/b_invert" />
+    <item android:id="@+id/m_8bit" android:title="@string/b_8bit" />
+</menu>
+<!-- https://code.tutsplus.com/tutorials/android-sdk-implement-an-options-menu-mobile-9453 -->
